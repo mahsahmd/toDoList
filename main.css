@@ -1,0 +1,22 @@
+
+#toDoInput{
+    width: 50%;
+}
+
+ol#toDoList {}
+
+ol#toDoList li {
+    /* list-style: none; */
+    cursor: pointer;
+ 
+}
+
+ol#toDoList li p{
+    display: inline;
+    border: 1px solid black;
+    padding:0 10px;
+}
+
+.completedTask{
+    text-decoration: line-through;
+}
